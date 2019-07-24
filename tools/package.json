@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:concat": "node src/concat.js ../ dist/ambients.md ---",
-    "build:md2html": "node src/md-to-html.js dist/ambients.md dist/ambients.html && cp src/html/style.css dist/style.css && cp -R ../pictures dist/",
+    "build:md2html": "node src/md-to-html.js dist/ambients.md dist/ambients.html && cp src/html/style.css dist/style.css",
     "build:html2pdf": "./node_modules/.bin/chrome-headless-render-pdf --pdf=dist/ambients.pdf --url=file://${PWD}/dist/ambients.html --scale=0.8 --include-background",
     "build": "mkdir -p dist && npm run build:concat && npm run build:md2html && npm run build:html2pdf",
     "clean": "rm -rf dist/"
