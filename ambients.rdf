@@ -1,0 +1,3045 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Document rdf:about="https://martinfowler.com/eaaDev/EventSourcing.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>martinfowler.com</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fowler</foaf:surname>
+                        <foaf:givenname>Martin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_697"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://martinfowler.com/eaaDev/EventSourcing.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>12.12.2005</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:59:35</dcterms:dateSubmitted>
+        <dcterms:abstract>Capture all changes to an application state as a sequence of events.</dcterms:abstract>
+        <dc:title>Event Sourcing</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_697">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://martinfowler.com/eaaDev/EventSourcing.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:59:37</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1805.04263">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1805.04263 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kleppmann</foaf:surname>
+                        <foaf:givenname>Martin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gomes</foaf:surname>
+                        <foaf:givenname>Victor B. F.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mulligan</foaf:surname>
+                        <foaf:givenname>Dominic P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beresford</foaf:surname>
+                        <foaf:givenname>Alastair R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_707"/>
+        <link:link rdf:resource="#item_691"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Distributed, Parallel, and Cluster Computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1805.04263</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-05-11</dc:date>
+        <dc:description>arXiv: 1805.04263</dc:description>
+        <dcterms:dateSubmitted>2019-05-22 07:57:40</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dcterms:abstract>We introduce OpSets, an executable framework for specifying and reasoning about the semantics of replicated datatypes that provide eventual consistency in a distributed system, and for mechanically verifying algorithms that implement these datatypes. Our approach is simple but expressive, allowing us to succinctly specify a variety of abstract datatypes, including maps, sets, lists, text, graphs, trees, and registers. Our datatypes are also composable, enabling the construction of complex data structures. To demonstrate the utility of OpSets for analysing replication algorithms, we highlight an important correctness property for collaborative text editing that has traditionally been overlooked; algorithms that do not satisfy this property can exhibit awkward interleaving of text. We use OpSets to specify this correctness property and prove that although one existing replication algorithm satisfies this property, several other published algorithms do not. We also show how OpSets can be used to develop new replicated datatypes: we provide a simple specification of an atomic move operation for trees, an operation that had previously been thought to be impossible to implement without locking. We use the Isabelle/HOL proof assistant to formalise the OpSets approach and produce mechanised proofs of correctness of the main claims in this paper, thereby eliminating the ambiguity of previous informal approaches, and ruling out reasoning errors that could occur in handwritten proofs.</dcterms:abstract>
+        <dc:title>OpSets: Sequential Specifications for Replicated Datatypes (Extended Version)</dc:title>
+        <z:shortTitle>OpSets</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_707">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.arxiv.org/pdf/1805.04263.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:57:44</dcterms:dateSubmitted>
+        <dc:title>arXiv:1805.04263 PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_691">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1805.04263</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:57:45</dcterms:dateSubmitted>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://blog.ploeh.dk/2018/09/03/the-identity-functor/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ploeh blog</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Seemann</foaf:surname>
+                        <foaf:givenname>Mark</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_683"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://blog.ploeh.dk/2018/09/03/the-identity-functor/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>3.9.2018</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:52:39</dcterms:dateSubmitted>
+        <dc:title>The Identity functor</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_683">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://blog.ploeh.dk/2018/09/03/the-identity-functor/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:52:39</dcterms:dateSubmitted>
+        <dc:title>The Identity functor</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.tweag.io/posts/2017-03-13-linear-types.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Tweag I/O</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bernardy</foaf:surname>
+                        <foaf:givenname>Jean-Philippe</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Spiwack</foaf:surname>
+                        <foaf:givenname>Arnaud</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_704"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tweag.io/posts/2017-03-13-linear-types.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>13.3.2017</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:51:33</dcterms:dateSubmitted>
+        <dc:title>Linear types make performance more predictable</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_704">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tweag.io/posts/2017-03-13-linear-types.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:51:34</dcterms:dateSubmitted>
+        <dc:title>Tweag I/O - Linear typesmake performance more predictable</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1808.01599">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1808.01599 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peters</foaf:surname>
+                        <foaf:givenname>Kirstin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nestmann</foaf:surname>
+                        <foaf:givenname>Uwe</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_672"/>
+        <link:link rdf:resource="#item_699"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Logic in Computer Science</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1808.01599</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-08-05</dc:date>
+        <dc:description>arXiv: 1808.01599</dc:description>
+        <dcterms:dateSubmitted>2019-05-22 07:51:25</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dcterms:abstract>Modern society is dependent on distributed software systems and to verify them different modelling languages such as mobile ambients were developed. To analyse the quality of mobile ambients as a good foundational model for distributed computation, we analyse the level of synchronisation between distributed components that they can express. Therefore, we rely on earlier established synchronisation patterns. It turns out that mobile ambients are not fully distributed, because they can express enough synchronisation to express a synchronisation pattern called M. However, they can express strictly less synchronisation than the standard pi-calculus. For this reason, we can show that there is no good and distributability-preserving encoding from the standard pi-calculus into mobile ambients and also no such encoding from mobile ambients into the join-calculus, i.e., the expressive power of mobile ambients is in between these languages. Finally, we discuss how these results can be used to obtain a fully distributed variant of mobile ambients.</dcterms:abstract>
+        <dc:title>On the Distributability of Mobile Ambients</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_672">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.arxiv.org/pdf/1808.01599.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:51:28</dcterms:dateSubmitted>
+        <dc:title>arXiv:1808.01599 PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_699">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1808.01599</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:51:31</dcterms:dateSubmitted>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="Making Ambients More Robust">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guan</foaf:surname>
+                        <foaf:givenname>Xudong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenname>Yiling</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>You</foaf:surname>
+                        <foaf:givenname>Jinyuan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_719"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>Making Ambients More Robust</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>November 3, 2002</dc:date>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+        <dcterms:abstract>Mobile Safe Ambients (SA) was proposed in order to remove the grave interference in the Mobile Ambient calculus. But the coactions introduced in SA also bring some security breaches. In this paper, a similar calculus called Robust Ambients (ROAM) was proposed as a more rational substitute for SA. Through specifying the parameters of the coactions, the ambients in ROAM are more robust against malicious tampering. The encoding of polyadic asynchronous p-calculus in ROAM shows that ROAM does not loss the strong expressiveness of its ancestors. The type system for ROAM proposed here also shows that the new calculus has some very good properties.</dcterms:abstract>
+        <dc:title>Making Ambients More Robust</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_719">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/2564630_Making_Ambients_More_Robust</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:49:54</dcterms:dateSubmitted>
+        <dc:title>ResearchGate Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.dcs.ed.ac.uk/pepa/tuningsystems.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>48</prism:volume>
+                <dc:title>The Computer Journal</dc:title>
+                <dcterms:alternative>The Computer Journal</dcterms:alternative>
+                <dc:identifier>DOI 10.1093/comjnl/bxh097</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hillston</foaf:surname>
+                        <foaf:givenname>Jane</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_692"/>
+        <link:link rdf:resource="#item_714"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.dcs.ed.ac.uk/pepa/tuningsystems.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>385-400</bib:pages>
+        <dc:date>July 1, 2005</dc:date>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+        <dcterms:abstract>This paper gives a summary of some of the work of the Performance Evaluation Process Algebra (PEPA) project, which was awarded the 2004 Roger Needham Award from the BCS. Centred on the PEPA modelling formalism, the project has sought to balance theory and practice. Theoretical developments have been tested and validated by application to a wide range of problems and such case studies have provided the stimulus for new directions in theory. Both aspects of the work are presented in summary as well as some current and future research topics.</dcterms:abstract>
+        <dc:title>Tuning Systems: From Composition to Performance</dc:title>
+        <z:shortTitle>Tuning Systems</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_692">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/profile/Jane_Hillston/publication/262247322_Tuning_Systems_From_Composition_to_Performance/links/5430f50b0cf29bbc12772c3e/Tuning-Systems-From-Composition-to-Performance.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:48:12</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_714">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/262247322_Tuning_Systems_From_Composition_to_Performance</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:48:12</dcterms:dateSubmitted>
+        <dc:title>ResearchGate Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Document rdf:about="https://github.com/ethereum/cbc-casper/wiki">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://github.com/ethereum/cbc-casper/wiki</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2019-05-13T04:00:29Z</dc:date>
+        <dc:description>original-date: 2017-02-22T17:20:11Z</dc:description>
+        <dcterms:dateSubmitted>2019-05-22 07:46:16</dcterms:dateSubmitted>
+        <dc:title>Correct-by-construction Casper Wiki</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://kseo.github.io/posts/2015-06-18-total-functional-programming.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Kwang's Haskell Blog</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kwang</foaf:surname>
+                        <foaf:givenname>Yul Seo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_710"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://kseo.github.io/posts/2015-06-18-total-functional-programming.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>18.6.2015</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:44:04</dcterms:dateSubmitted>
+        <dc:title>Total functional programming</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_710">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://kseo.github.io/posts/2015-06-18-total-functional-programming.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:44:04</dcterms:dateSubmitted>
+        <dc:title>Kwang's Haskell Blog - Total functional programming</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.semanticscholar.org/paper/Total-Functional-Programming-Turner/2ce39c4f6c725082bf30e21ddb660c53026e88b5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>10</prism:volume>
+                <dc:title>J. UCS</dc:title>
+                <dc:identifier>DOI 10.3217/jucs-010-07-0751</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Turner</foaf:surname>
+                        <foaf:givenname>D. A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_682"/>
+        <link:link rdf:resource="#item_715"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Computation</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data structure</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Divergence (computer science)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Haskell</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Linear algebra</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Miranda</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Total functional programming</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.semanticscholar.org/paper/Total-Functional-Programming-Turner/2ce39c4f6c725082bf30e21ddb660c53026e88b5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>751-768</bib:pages>
+        <dc:date>2004</dc:date>
+        <z:libraryCatalog>Semantic Scholar</z:libraryCatalog>
+        <dcterms:abstract>The driving idea of functional programming is to make programming more closely related to mathematics. A program in a functional language such as Haskell or Miranda consists of equations which are both computation rules and a basis for simple algebraic reasoning about the functions and data structures they define. The existing model of functional programming, although elegant and powerful, is compromised to a greater extent than is commonly recognised by the presence of partial functions. We consider a simple discipline of total functional programming designed to exclude the possibility of non-termination. Among other things this requires a type distinction between data, which is finite, and codata, which is potentially infinite.</dcterms:abstract>
+        <dc:title>Total Functional Programming</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_682">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdfs.semanticscholar.org/82b4/ea72b89270c528006dd2532aef43eec463c3.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:43:39</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_715">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.semanticscholar.org/paper/Total-Functional-Programming-Turner/2ce39c4f6c725082bf30e21ddb660c53026e88b5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:43:37</dcterms:dateSubmitted>
+        <dc:title>Semantic Scholar Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ipfs.io/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>IPFS</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Protocol Labs</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_670"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://ipfs.io/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:43:08</dcterms:dateSubmitted>
+        <dcterms:abstract>A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.</dcterms:abstract>
+        <dc:title>IPFS is the Distributed Web</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_670">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://ipfs.io/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:43:25</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://git-scm.com/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_713"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://git-scm.com/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:43:05</dcterms:dateSubmitted>
+        <dc:title>Git</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_713">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://git-scm.com/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:43:05</dcterms:dateSubmitted>
+        <dc:title>Git</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://3box.io/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_686"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://3box.io/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 08:02:10</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>One profile. A world of Ethereum dapps.</dcterms:abstract>
+        <dc:title>3Box</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_686">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://3box.io/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 08:02:14</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://github.com/orbitdb/ipfs-log">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://github.com/orbitdb/ipfs-log</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>MIT</dc:rights>
+        <dc:date>2019-05-19T12:11:23Z</dc:date>
+        <dc:description>original-date: 2016-03-17T09:35:56Z</dc:description>
+        <dcterms:dateSubmitted>2019-05-22 08:01:38</dcterms:dateSubmitted>
+        <dc:title>ipfs-log - Append-only log CRDT on IPFS</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://discuss.ipfs.io/t/what-is-a-merkle-dag/386">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>IPFS discussion forum</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_674"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://discuss.ipfs.io/t/what-is-a-merkle-dag/386</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015-09-14</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 08:00:02</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>From @Mithgol on Mon Sep 14 2015 14:27:32 GMT+0000 (UTC)  A Merkle DAG is a Merkle directed acyclic graph. That is a data structure similar to a Merkle tree but not so strict: such DAG does not need to be balanced and its non-leaf nodes are allowed to contain data.   Correct?   Copied from original issue: https://github.com/ipfs/faq/issues/31</dcterms:abstract>
+        <dc:title>What is a Merkle DAG?</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_674">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://discuss.ipfs.io/t/what-is-a-merkle-dag/386</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 08:00:04</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>The Log</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kreps</foaf:surname>
+                        <foaf:givenname>Jay</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_700"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>16.12.2013</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:59:02</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>I joined LinkedIn about six years ago at a particularly interesting time. We were just beginning to run up against the limits of our monolithic, centralized database and needed to start the transition to a portfolio of specialized distributed systems. This has been an interesting experience: we buil</dcterms:abstract>
+        <dc:title>What every software engineer should know about real-time data's unifying abstraction</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_700">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:59:05</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.semanticscholar.org/paper/Eventually-Returning-to-Strong-Consistency-Vukolic/a6a1b70305b27c556aac779fb65429db9c2e1ef2">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>39</prism:volume>
+                <dc:title>IEEE Data Eng. Bull.</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vukolic</foaf:surname>
+                        <foaf:givenname>Marko</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_711"/>
+        <link:link rdf:resource="#item_717"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cloud computing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Consistency model</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data center</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Distributed computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Eventual consistency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Linearizability</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Requirement</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Scalability</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Strong consistency</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>System requirements</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.semanticscholar.org/paper/Eventually-Returning-to-Strong-Consistency-Vukolic/a6a1b70305b27c556aac779fb65429db9c2e1ef2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>39-44</bib:pages>
+        <dc:date>2016</dc:date>
+        <z:libraryCatalog>Semantic Scholar</z:libraryCatalog>
+        <dcterms:abstract>Eventually and weakly consistent distributed systems have emerged in the past decade as an answer to scalability and availability issues associated with strong consistency semantics, such as linearizability. However, systems offering strong consistency semantics have an advantage over systems based on weaker consistency models, as they are typically much simpler to reason about and are more intuitive to developers, exhibiting more predictable behavior. Therefore, a lot of research and development effort is being invested lately into the re-engineering of strongly consistent distributed systems, as well as into boosting their scalability and performance. This paper overviews and discusses several novel directions in the design and implementation of strongly consistent systems in industries and research domains such as cloud computing, data center networking and blockchain. It also discusses a general trend of returning to strong consistency in distributed systems, when system requirements permit so.</dcterms:abstract>
+        <dc:title>Eventually Returning to Strong Consistency</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_711">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pdfs.semanticscholar.org/a6a1/b70305b27c556aac779fb65429db9c2e1ef2.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:58:29</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_717">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.semanticscholar.org/paper/Eventually-Returning-to-Strong-Consistency-Vukolic/a6a1b70305b27c556aac779fb65429db9c2e1ef2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:58:29</dcterms:dateSubmitted>
+        <dc:title>Semantic Scholar Link</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://github.com/orbitdb">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_676"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://github.com/orbitdb</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:56:14</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>Peer-to-Peer Databases for the Decentralized Web.</dcterms:abstract>
+        <dc:title>OrbitDB</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_676">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://github.com/orbitdb</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:56:16</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://hector.link/presentations/merkle-crdts/merkle-crdts.pdf">
+        <z:itemType>magazineArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Periodical></bib:Periodical>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sanjuan</foaf:surname>
+                        <foaf:givenname>Hector</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pöyhtäri</foaf:surname>
+                        <foaf:givenname>Samuli</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Teixeira</foaf:surname>
+                        <foaf:givenname>Pedro</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hector.link/presentations/merkle-crdts/merkle-crdts.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>February 2019</dc:date>
+        <dc:title>Merkle-CRDTs</dc:title>
+    </bib:Article>
+    <bib:Document rdf:about="http://www-sop.inria.fr/mimosa/ambicobjs/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zimmer</foaf:surname>
+                        <foaf:givenname>Pascal</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_687"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www-sop.inria.fr/mimosa/ambicobjs/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:50:09</dcterms:dateSubmitted>
+        <dc:title>Ambient Programming in Icobjs</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_687">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www-sop.inria.fr/mimosa/ambicobjs/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:50:10</dcterms:dateSubmitted>
+        <dc:title>Ambient Simulator</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-3-540-64300-5">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>FoSSaCS '98</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-3-540-64300-5</dc:identifier>
+                <dc:title>Proceedings of the First International Conference on Foundations of Software Science and Computation Structure</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London, UK, UK</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer-Verlag</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cardelli</foaf:surname>
+                        <foaf:givenname>Luca</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gordon</foaf:surname>
+                        <foaf:givenname>Andrew D.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dl.acm.org/citation.cfm?id=646790.759638</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>140–155</bib:pages>
+        <dc:date>1998</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:49:08</dcterms:dateSubmitted>
+        <z:libraryCatalog>ACM Digital Library</z:libraryCatalog>
+        <dc:title>Mobile Ambients</dc:title>
+    </rdf:Description>
+    <bib:Document rdf:about="https://medium.com/rchain-cooperative/a-visualization-for-the-future-of-blockchain-consensus-b6710b2f50d6">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Medium</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Birch</foaf:surname>
+                        <foaf:givenname>Michael</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_681"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/rchain-cooperative/a-visualization-for-the-future-of-blockchain-consensus-b6710b2f50d6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-12-27T15:56:15.123Z</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:44:46</dcterms:dateSubmitted>
+        <dcterms:abstract>An animated visualization of RChain’s proof-of-stake consensus model</dcterms:abstract>
+        <dc:title>A Visualization for the Future of Blockchain Consensus</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_681">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/rchain-cooperative/a-visualization-for-the-future-of-blockchain-consensus-b6710b2f50d6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:44:49</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.bailis.org/blog/linearizability-versus-serializability/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Highly Available, Seldom Consistent</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bailis</foaf:surname>
+                        <foaf:givenname>Peter</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_678"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.bailis.org/blog/linearizability-versus-serializability/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>24.9.2014</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:36:29</dcterms:dateSubmitted>
+        <dc:title>Linearizability versus Serializability</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_678">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.bailis.org/blog/linearizability-versus-serializability/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:36:30</dcterms:dateSubmitted>
+        <dc:title>Linearizability versus Serializability | Peter Bailis</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://bitcoin.org/en/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_706"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://bitcoin.org/en/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:32:04</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>Bitcoin is an innovative payment network and a new kind of money. Find all you need to know and get started with Bitcoin on bitcoin.org.</dcterms:abstract>
+        <dc:title>Bitcoin</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_706">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://bitcoin.org/en/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:32:07</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.inkandswitch.com/local-first.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kleppmann</foaf:surname>
+                        <foaf:givenname>Martin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wiggins</foaf:surname>
+                        <foaf:givenname>Adam</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Hardenberg</foaf:surname>
+                        <foaf:givenname>Peter</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McGranaghan</foaf:surname>
+                        <foaf:givenname>Mark</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_690"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.inkandswitch.com/local-first.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>April 2019</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:29:42</dcterms:dateSubmitted>
+        <z:language>en-US</z:language>
+        <dcterms:abstract>A new generation of collaborative software that allows users to retain ownership of their data.</dcterms:abstract>
+        <dc:title>Local-first software: You own your data, in spite of the cloud</dc:title>
+        <z:shortTitle>Local-first software</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_690">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.inkandswitch.com/local-first.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:29:45</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://queue.acm.org/detail.cfm?id=3025012">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ACM Queue</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Helland</foaf:surname>
+                        <foaf:givenname>Pat</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_671"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://queue.acm.org/detail.cfm?id=3025012</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>12.12.2016</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:29:15</dcterms:dateSubmitted>
+        <dc:title>Life Beyond Distributed Transactions - ACM Queue</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_671">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://queue.acm.org/detail.cfm?id=3025012</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:29:16</dcterms:dateSubmitted>
+        <dc:title>Life Beyond Distributed Transactions - ACM Queue</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1812.03651">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1812.03651 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hellerstein</foaf:surname>
+                        <foaf:givenname>Joseph M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Faleiro</foaf:surname>
+                        <foaf:givenname>Jose</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gonzalez</foaf:surname>
+                        <foaf:givenname>Joseph E.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schleier-Smith</foaf:surname>
+                        <foaf:givenname>Johann</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sreekanti</foaf:surname>
+                        <foaf:givenname>Vikram</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tumanov</foaf:surname>
+                        <foaf:givenname>Alexey</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenname>Chenggang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_685"/>
+        <link:link rdf:resource="#item_701"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Distributed, Parallel, and Cluster Computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Databases</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1812.03651</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-12-10</dc:date>
+        <dc:description>arXiv: 1812.03651</dc:description>
+        <dcterms:dateSubmitted>2019-05-22 07:26:39</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dcterms:abstract>Serverless computing offers the potential to program the cloud in an autoscaling, pay-as-you go manner. In this paper we address critical gaps in first-generation serverless computing, which place its autoscaling potential at odds with dominant trends in modern computing: notably data-centric and distributed computing, but also open source and custom hardware. Put together, these gaps make current serverless offerings a bad fit for cloud innovation and particularly bad for data systems innovation. In addition to pinpointing some of the main shortfalls of current serverless architectures, we raise a set of challenges we believe must be met to unlock the radical potential that the cloud---with its exabytes of storage and millions of cores---should offer to innovative developers.</dcterms:abstract>
+        <dc:title>Serverless Computing: One Step Forward, Two Steps Back</dc:title>
+        <z:shortTitle>Serverless Computing</z:shortTitle>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_685">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.arxiv.org/pdf/1812.03651.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:26:45</dcterms:dateSubmitted>
+        <dc:title>arXiv:1812.03651 PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_701">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1812.03651</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:26:49</dcterms:dateSubmitted>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://medium.com/mit-cryptoeconomics-lab/the-blockchain-effect-86bd01006ec2">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>MIT Cryptoeconomics Lab</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barrera</foaf:surname>
+                        <foaf:givenname>Cathy</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_709"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/mit-cryptoeconomics-lab/the-blockchain-effect-86bd01006ec2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-03-29T13:44:12.761Z</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:24:50</dcterms:dateSubmitted>
+        <dcterms:abstract>Network Effects without Market Power Costs</dcterms:abstract>
+        <dc:title>The Blockchain Effect</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_709">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/mit-cryptoeconomics-lab/the-blockchain-effect-86bd01006ec2</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:24:52</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.hrw.org/reports/2006/china0806/5.htm">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Human Rights Watch</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Human Rights Watch</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_673"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.hrw.org/reports/2006/china0806/5.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>August 2006</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:21:42</dcterms:dateSubmitted>
+        <dc:title>&quot;Race to the Bottom&quot;: Corporate Complicity in Chinese Internet Censorship</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_673">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.hrw.org/reports/2006/china0806/5.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:21:44</dcterms:dateSubmitted>
+        <dc:title>&quot;Race to the Bottom&quot;: Corporate Complicity in Chinese Internet Censorship: II. How Censorship Works in China: A Brief Overview</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://zeltser.com/web-history/#Origins_WWW">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zeltser</foaf:surname>
+                        <foaf:givenname>Lenny</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_684"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://zeltser.com/web-history/#Origins_WWW</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>8.2.2015</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:18:37</dcterms:dateSubmitted>
+        <dc:title>Early History of the World-Wide Web: Origins and Beyond</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_684">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://zeltser.com/web-history/#Origins_WWW</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:18:38</dcterms:dateSubmitted>
+        <dc:title>Early History of the World-Wide Web: Origins and Beyond</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://webfoundation.org/2017/03/web-turns-28-letter/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>World Wide Web Foundation</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Berners-Lee</foaf:surname>
+                        <foaf:givenname>Tim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_680"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://webfoundation.org/2017/03/web-turns-28-letter/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>12.3.2017</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:17:46</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dc:title>Three challenges for the web, according to its inventor</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_680">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://webfoundation.org/2017/03/web-turns-28-letter/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:17:49</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://gotocon.com/dl/goto-cph-2012/slides/value-of-values.pdf">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hickey</foaf:surname>
+                        <foaf:givenname>Rich</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://gotocon.com/dl/goto-cph-2012/slides/value-of-values.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>May 2012</dc:date>
+        <dcterms:dateSubmitted>2019-05-20</dcterms:dateSubmitted>
+        <dc:title>The Value of Values</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://blog.statebox.org/modularity-vs-compositionality-a-history-of-misunderstandings-be0150033568">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Genovese</foaf:surname>
+                        <foaf:givenname>Fabrizio Romano</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_679"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://blog.statebox.org/modularity-vs-compositionality-a-history-of-misunderstandings-be0150033568</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-09-24T10:45:03.606Z</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:41:04</dcterms:dateSubmitted>
+        <dcterms:abstract>I claim that compositionality is extremely delicate, and that it is so powerful that it is worth going to extreme lengths to achieve it…</dcterms:abstract>
+        <dc:title>Modularity vs Compositionality: A History of Misunderstandings</dc:title>
+        <z:shortTitle>Modularity vs Compositionality</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_679">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://blog.statebox.org/modularity-vs-compositionality-a-history-of-misunderstandings-be0150033568</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:41:06</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://blog.paralleluniverse.co/2016/07/23/correctness-and-complexity/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Parallel Universe</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pressler</foaf:surname>
+                        <foaf:givenname>Ron</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_702"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://blog.paralleluniverse.co/2016/07/23/correctness-and-complexity/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-07-23</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:40:29</dcterms:dateSubmitted>
+        <dcterms:abstract>We try to understand the relationship between programs and correctness, and in particular, why writing correct programs must be hard. We will review results from computability theory and complexity theory, and see that programs and complete understanding – which is required for correctness – are fundamentally at odds.</dcterms:abstract>
+        <dc:title>Why Writing Correct Software Is Hard</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_702">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://blog.paralleluniverse.co/2016/07/23/correctness-and-complexity/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:40:33</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-1-4919-9436-8">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>O'Reilly Media, Inc</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bonér</foaf:surname>
+                        <foaf:givenname>Jonas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_703"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.oreilly.com/library/view/reactive-microsystems/9781491994368/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-1-4919-9436-8</dc:identifier>
+        <dc:date>September 2017</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:38:00</dcterms:dateSubmitted>
+        <dcterms:abstract>When it comes to development speed, time-to-market, and continuous delivery, microservices can do wonders for your organization. Author Jonas Bonér, Founder and CTO of Lightbend and author of Reactive Microservices Architecture (O’Reilly), demonstrates how to refactor a monolithic application step-by-step. You’ll briefly land at single instance microliths (micro monoliths) before working your way toward a scalable and resilient microsystem.</dcterms:abstract>
+        <dc:title>Reactive Microsystems: The Evolution of Microservices at Scale</dc:title>
+        <z:shortTitle>Reactive Microsystems</z:shortTitle>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_703">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lightbend.com/ebooks/reactive-microsystems-evolution-of-microservices-scalability-oreilly</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:38:02</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.allthingsdistributed.com/2008/12/eventually_consistent.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>All Things Distributed</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vogel</foaf:surname>
+                        <foaf:givenname>Werner</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_693"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.allthingsdistributed.com/2008/12/eventually_consistent.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>22.12.2008</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:35:38</dcterms:dateSubmitted>
+        <dc:title>Eventually Consistent - Revisited</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_693">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.allthingsdistributed.com/2008/12/eventually_consistent.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:35:40</dcterms:dateSubmitted>
+        <dc:title>Eventually Consistent - Revisited - All Things Distributed</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://eugdpr.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_708"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://eugdpr.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:35:28</dcterms:dateSubmitted>
+        <z:language>en-GB</z:language>
+        <dc:title>EUGDPR – Information Portal</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_708">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://eugdpr.org/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:35:30</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://libp2p.io/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Protocol Labs</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_695"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://libp2p.io/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:35:20</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>Run your network applications free from runtime and address services, independently of their location.</dcterms:abstract>
+        <dc:title>libp2p - A modular network stack</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_695">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://libp2p.io/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:35:21</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ethereum.org">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_677"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://ethereum.org</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:33:09</dcterms:dateSubmitted>
+        <z:language>en-US</z:language>
+        <dcterms:abstract>Ethereum is a global, decentralized platform for money and new kinds of applications. On Ethereum, you can write code that controls money, and build applications accessible anywhere in the world.</dcterms:abstract>
+        <dc:title>Ethereum</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_677">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.ethereum.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:33:10</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://brewster.kahle.org/2015/08/11/locking-the-web-open-a-call-for-a-distributed-web-2/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Brewster Kahle's Blog</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kahle</foaf:surname>
+                        <foaf:givenname>Brewster</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_668"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://brewster.kahle.org/2015/08/11/locking-the-web-open-a-call-for-a-distributed-web-2/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>11.8.2015</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:30:54</dcterms:dateSubmitted>
+        <dc:title>Locking the Web Open: A Call for a Decentralized Web</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_668">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://brewster.kahle.org/2015/08/11/locking-the-web-open-a-call-for-a-distributed-web-2/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:31:16</dcterms:dateSubmitted>
+        <dc:title>Locking the Web Open: A Call for a Decentralized Web | Brewster Kahle's Blog</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ruben.verborgh.org/blog/2017/12/20/paradigm-shifts-for-the-decentralized-web/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Verborgh</foaf:surname>
+                        <foaf:givenname>Ruben</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_688"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ruben.verborgh.org/blog/2017/12/20/paradigm-shifts-for-the-decentralized-web/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-12-20T12:00:00+01:00</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:28:41</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>As separate markets for data and apps emerge, Web development needs to adopt a new shape ◆ Most Web applications today follow the adage “your data for my services”. They motivate this deal from both a technical perspective (how could we provide services without your data?</dcterms:abstract>
+        <dc:title>Paradigm shifts for the decentralized Web</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_688">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ruben.verborgh.org/blog/2017/12/20/paradigm-shifts-for-the-decentralized-web/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:28:43</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1405.2627">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1405.2627 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Borril</foaf:surname>
+                        <foaf:givenname>Paul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Burgess</foaf:surname>
+                        <foaf:givenname>Mark</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Craw</foaf:surname>
+                        <foaf:givenname>Todd</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dvorkin</foaf:surname>
+                        <foaf:givenname>Mike</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_675"/>
+        <link:link rdf:resource="#item_696"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Networking and Internet Architecture</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1405.2627</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2014-05-12</dc:date>
+        <dc:description>arXiv: 1405.2627</dc:description>
+        <dcterms:dateSubmitted>2019-05-22 07:28:36</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dcterms:abstract>Networking is undergoing a transformation throughout our industry. The need for scalable network control and automation shifts the focus from hardware driven products with ad hoc control to Software Defined Networks. This process is now well underway. In this paper, we adopt the perspective of the Promise Theory to examine the current and future states of networking technologies. The goal is to see beyond specific technologies, topologies and approaches and define principles. Promise Theory's bottom-up modeling has been applied to server management for many years and lends itself to principles of self-healing, scalability and robustness.</dcterms:abstract>
+        <dc:title>A Promise Theory Perspective on Data Networks</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_675">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.arxiv.org/pdf/1405.2627.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:28:39</dcterms:dateSubmitted>
+        <dc:title>arXiv:1405.2627 PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_696">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1405.2627</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:28:41</dcterms:dateSubmitted>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Medium</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dixon</foaf:surname>
+                        <foaf:givenname>Chris</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_694"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-02-18T16:27:01.034Z</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:25:47</dcterms:dateSubmitted>
+        <dcterms:abstract>We’ve forgotten there’s a better way to build internet services</dcterms:abstract>
+        <dc:title>Why Decentralization Matters – Featured Stories</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_694">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/s/story/why-decentralization-matters-5e3f79f7638e</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:25:49</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="https://papers.ssrn.com/abstract=2874598">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Rochester, NY</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Social Science Research Network</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Catalini</foaf:surname>
+                        <foaf:givenname>Christian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gans</foaf:surname>
+                        <foaf:givenname>Joshua S.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_669"/>
+        <link:link rdf:resource="#item_698"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>auctions</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Bitcoin</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>blockchain</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>cryptocurrency</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>distributed ledgers</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ethereum</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ICOs</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>initial coin offerings</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>market design</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>open source</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>smart contracts</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>tokens</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://papers.ssrn.com/abstract=2874598</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017/09/21</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:25:16</dcterms:dateSubmitted>
+        <z:type>SSRN Scholarly Paper</z:type>
+        <z:libraryCatalog>papers.ssrn.com</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>We rely on economic theory to discuss how blockchain technology will shape the rate and direction of innovation. We identify two key costs affected by the technology: 1) the cost of verification; and 2) the cost of networking. The first cost relates to the ability to cheaply verify the attributes of a transaction. The second one to the ability to bootstrap and operate a marketplace without the need for a traditional intermediary: When combined with a native token (as in Bitcoin and Ethereum), a blockchain allows a decentralized network of economic agents to agree, at regular intervals, about the true state of shared data. This shared data can represent exchanges of currency, intellectual property, equity, information or other types of contracts and digital assets - making blockchain a general purpose technology that can be used to trade scarce, digital property rights and create novel types of digital platforms. The resulting marketplaces are characterized by increased competition, lower barriers to entry and innovation, lower privacy and censorship risk, and allow participants within the same ecosystem to make investments to support and operate shared infrastructure without assigning market power to a platform operator. They also challenge the existing revenue models and accumulated knowledge and resources of incumbents, and open opportunities for new approaches to startup fundraising, the provision of public goods and software protocols, data ownership and licensing, auctions and reputation systems.</dcterms:abstract>
+        <prism:number>ID 2874598</prism:number>
+        <dc:title>Some Simple Economics of the Blockchain</dc:title>
+    </bib:Report>
+    <z:Attachment rdf:about="#item_669">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3040221_code1556445.pdf?abstractid=2874598&amp;mirid=1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:25:24</dcterms:dateSubmitted>
+        <dc:title>Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_698">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874598</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:25:22</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Information is Beautiful</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_705"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>1.4.2019</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:24:28</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>Data visualization of the world biggest data breaches, leaks and hacks. Constantly updated. Powered by VizSweet.</dcterms:abstract>
+        <dc:title>World’s Biggest Data Breaches &amp; Hacks</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_705">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:24:31</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://hackernoon.com/the-evolution-of-the-internet-from-decentralized-to-centralized-3e2fa65898f5">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tabora</foaf:surname>
+                        <foaf:givenname>Vince</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_712"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hackernoon.com/the-evolution-of-the-internet-from-decentralized-to-centralized-3e2fa65898f5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-03-25T04:53:34.486Z</dc:date>
+        <dcterms:dateSubmitted>2019-05-22 07:20:16</dcterms:dateSubmitted>
+        <dcterms:abstract>The Internet is our digital information superhighway which we use so ubiquitously today. The term “online” has become synonymous with the…</dcterms:abstract>
+        <dc:title>The Evolution of the Internet, From Decentralized to Centralized</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_712">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hackernoon.com/the-evolution-of-the-internet-from-decentralized-to-centralized-3e2fa65898f5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-22 07:20:22</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://alvinalexander.com/scala/fp-book/benefits-of-functional-programming">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alexander</foaf:surname>
+                        <foaf:givenname>Alvin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_726"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://alvinalexander.com/scala/fp-book/benefits-of-functional-programming</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-12-07</dc:date>
+        <dcterms:dateSubmitted>2019-05-30 07:16:09</dcterms:dateSubmitted>
+        <dc:title>Benefits of Functional Programming</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_726">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://alvinalexander.com/scala/fp-book/benefits-of-functional-programming</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:16:15</dcterms:dateSubmitted>
+        <dc:title>Benefits of Functional Programming | alvinalexander.com</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.haskellforall.com/2013/12/equational-reasoning.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gonzalez</foaf:surname>
+                        <foaf:givenname>Gabriel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_728"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.haskellforall.com/2013/12/equational-reasoning.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2013-12-23</dc:date>
+        <dcterms:dateSubmitted>2019-05-30 07:17:01</dcterms:dateSubmitted>
+        <dcterms:abstract>You may have heard that Haskell is &quot;great for equational reasoning&quot;, but perhaps you didn't know precisely what that meant. This post will w...</dcterms:abstract>
+        <dc:title>Equational reasoning</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_728">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.haskellforall.com/2013/12/equational-reasoning.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:17:04</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://ssbc.github.io/scuttlebutt-protocol-guide/#feeds">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_730"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ssbc.github.io/scuttlebutt-protocol-guide/#feeds</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:18:16</dcterms:dateSubmitted>
+        <dc:title>Scuttlebutt Protocol Guide</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_730">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ssbc.github.io/scuttlebutt-protocol-guide/#feeds</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:18:29</dcterms:dateSubmitted>
+        <dc:title>Scuttlebutt Protocol Guide</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.scuttlebutt.nz/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_732"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.scuttlebutt.nz/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:19:29</dcterms:dateSubmitted>
+        <dc:title>Scuttlebutt - a decent(ralised) secure gossip platform</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_732">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.scuttlebutt.nz/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:19:30</dcterms:dateSubmitted>
+        <dc:title>Introduction · GitBook</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://medium.com/textileio/wip-textile-threads-whitepaper-just-kidding-6ce3a6624338">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Textile</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Farmer</foaf:surname>
+                        <foaf:givenname>Carson</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_734"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/textileio/wip-textile-threads-whitepaper-just-kidding-6ce3a6624338</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-10-31T16:16:01.522Z</dc:date>
+        <dcterms:dateSubmitted>2019-05-30 07:20:49</dcterms:dateSubmitted>
+        <dcterms:abstract>How Threads are woven into the fabric of Textile Photos</dcterms:abstract>
+        <dc:title>A deeper look at the tech behind Textile’s Threads</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_734">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/textileio/wip-textile-threads-whitepaper-just-kidding-6ce3a6624338</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:20:53</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://textile.io/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_736"/>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://textile.io/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:21:28</dcterms:dateSubmitted>
+        <dc:title>Textile</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_736">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://textile.io/</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:21:30</dcterms:dateSubmitted>
+        <dc:title>Textile</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://github.com/mafintosh/hypercore">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Buus</foaf:surname>
+                        <foaf:givenname>Mathias</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://github.com/mafintosh/hypercore</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>MIT</dc:rights>
+        <dc:date>2019-05-29T15:41:15Z</dc:date>
+        <dc:description>original-date: 2015-12-20T20:24:46Z</dc:description>
+        <dcterms:dateSubmitted>2019-05-30 07:21:56</dcterms:dateSubmitted>
+        <dc:title>Hypercore is a secure, distributed append-only log.</dc:title>
+        <z:shortTitle>Hypercore is a secure, distributed append-only log.</z:shortTitle>
+    </bib:Document>
+    <bib:Document rdf:about="https://dat.foundation/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_739"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dat.foundation/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:22:33</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>Dat is a community-driven project for distributed data syncronization.</dcterms:abstract>
+        <dc:title>Dat Foundation</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_739">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dat.foundation/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:22:43</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://portal.acm.org/citation.cfm?doid=359545.359563">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00010782"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lamport</foaf:surname>
+                        <foaf:givenname>Leslie</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_744"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://portal.acm.org/citation.cfm?doid=359545.359563</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>558-565</bib:pages>
+        <dc:date>1978-7-1</dc:date>
+        <dcterms:dateSubmitted>2019-05-30 07:28:06</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>The concept of one event happening before another in a distributed system is examined, and is shown to define a partial ordering of the events. A distributed algorithm is given for synchronizing a system of logical clocks which can be used to totally order the events. The use of the total ordering is illustrated with a method for solving synchronization problems. The algorithm is then specialized for synchronizing physical clocks, and a bound is derived on how far out of synchrony the clocks can become.</dcterms:abstract>
+        <dc:title>Time, clocks, and the ordering of events in a distributed system</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00010782">
+        <prism:volume>21</prism:volume>
+        <prism:number>7</prism:number>
+        <dc:title>Communications of the ACM</dc:title>
+        <dc:identifier>ISSN 00010782</dc:identifier>
+        <dcterms:alternative>Commun. ACM</dcterms:alternative>
+        <dc:identifier>DOI 10.1145/359545.359563</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_744">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://lamport.azurewebsites.net/pubs/time-clocks.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 07:28:04</dcterms:dateSubmitted>
+        <dc:title>Lamport - 1978 - Time, clocks, and the ordering of events in a dist.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1805.06358">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>arXiv:1805.06358 [cs]</dc:title>
+                <dc:identifier>DOI 10.1007/978-3-319-63962-8\_185-1</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Preguiça</foaf:surname>
+                        <foaf:givenname>Nuno</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baquero</foaf:surname>
+                        <foaf:givenname>Carlos</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shapiro</foaf:surname>
+                        <foaf:givenname>Marc</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_747"/>
+        <link:link rdf:resource="#item_748"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Distributed, Parallel, and Cluster Computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1805.06358</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-05-16</dc:date>
+        <dc:description>arXiv: 1805.06358</dc:description>
+        <dcterms:dateSubmitted>2019-05-30 17:05:25</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dcterms:abstract>A conflict-free replicated data type (CRDT) is an abstract data type, with a well defined interface, designed to be replicated at multiple processes and exhibiting the following properties: (1) any replica can be modified without coordinating with another replicas; (2) when any two replicas have received the same set of updates, they reach the same state, deterministically, by adopting mathematically sound rules to guarantee state convergence.</dcterms:abstract>
+        <dc:title>Conflict-free Replicated Data Types (CRDTs)</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_747">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.arxiv.org/pdf/1805.06358.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 17:05:29</dcterms:dateSubmitted>
+        <dc:title>arXiv:1805.06358 PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_748">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1805.06358</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 17:05:34</dcterms:dateSubmitted>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.theregister.co.uk/2017/11/06/coreos_kubernetes_v_world/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Claburn</foaf:surname>
+                        <foaf:givenname>Thomas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_750"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.theregister.co.uk/2017/11/06/coreos_kubernetes_v_world/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-11-06</dc:date>
+        <dcterms:dateSubmitted>2019-05-30 17:08:45</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>CoreOS on AWS, Kubernetes, and more</dcterms:abstract>
+        <dc:title>'Lambda and serverless is one of the worst forms of proprietary lock-in we've ever seen in the history of humanity'</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_750">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.theregister.co.uk/2017/11/06/coreos_kubernetes_v_world/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 17:08:48</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://wiki.haskell.org/Functor#Functor_Laws">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_752"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://wiki.haskell.org/Functor#Functor_Laws</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 17:11:56</dcterms:dateSubmitted>
+        <dc:title>Functor - HaskellWiki</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_752">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://wiki.haskell.org/Functor#Functor_Laws</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 17:11:58</dcterms:dateSubmitted>
+        <dc:title>Functor - HaskellWiki</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://arxiv.org/abs/1407.3561">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>arXiv:1407.3561 [cs]</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benet</foaf:surname>
+                        <foaf:givenname>Juan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_754"/>
+        <link:link rdf:resource="#item_755"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Distributed, Parallel, and Cluster Computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Networking and Internet Architecture</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1407.3561</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2014-07-14</dc:date>
+        <dc:description>arXiv: 1407.3561</dc:description>
+        <dcterms:dateSubmitted>2019-05-30 17:14:22</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dcterms:abstract>The InterPlanetary File System (IPFS) is a peer-to-peer distributed file system that seeks to connect all computing devices with the same system of files. In some ways, IPFS is similar to the Web, but IPFS could be seen as a single BitTorrent swarm, exchanging objects within one Git repository. In other words, IPFS provides a high throughput content-addressed block storage model, with content-addressed hyper links. This forms a generalized Merkle DAG, a data structure upon which one can build versioned file systems, blockchains, and even a Permanent Web. IPFS combines a distributed hashtable, an incentivized block exchange, and a self-certifying namespace. IPFS has no single point of failure, and nodes do not need to trust each other.</dcterms:abstract>
+        <dc:title>IPFS - Content Addressed, Versioned, P2P File System</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_754">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.arxiv.org/pdf/1407.3561.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 17:14:33</dcterms:dateSubmitted>
+        <dc:title>arXiv:1407.3561 PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_755">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1407.3561</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 17:14:37</dcterms:dateSubmitted>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-0-387-97317-3">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>435</prism:volume>
+                <dc:identifier>ISBN 978-0-387-97317-3</dc:identifier>
+                <dc:title>Advances in Cryptology — CRYPTO’ 89 Proceedings</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer New York</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Brassard</foaf:surname>
+                        <foaf:givenname>Gilles</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Merkle</foaf:surname>
+                        <foaf:givenname>Ralph C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_759"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/0-387-34805-0_21</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>218-238</bib:pages>
+        <dc:date>1990</dc:date>
+        <dc:description>DOI: 10.1007/0-387-34805-0_21</dc:description>
+        <dcterms:dateSubmitted>2019-05-30 17:24:52</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>A Certified Digital Signature</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_759">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007/0-387-34805-0_21.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-30 17:24:49</dcterms:dateSubmitted>
+        <dc:title>Merkle - 1990 - A Certified Digital Signature.pdf</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-3-540-42736-0">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-3-540-42736-0</dc:identifier>
+                <dc:title>Theoretical Aspects of Computer Software</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin, Heidelberg</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bugliesi</foaf:surname>
+                        <foaf:givenname>Michele</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Castagna</foaf:surname>
+                        <foaf:givenname>Giuseppe</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Crafa</foaf:surname>
+                        <foaf:givenname>Silvia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Ambient Calculus</dc:subject>
+        <dc:subject>Boxed Ambients</dc:subject>
+        <bib:pages>38-63</bib:pages>
+        <dc:date>2001</dc:date>
+        <dc:description>DOI: 10.1007/3-540-45500-0_2</dc:description>
+        <z:libraryCatalog>Crossref</z:libraryCatalog>
+        <dcterms:abstract>Boxed Ambients are a variant of Mobile Ambients, that result from
+(i) dropping the open capability and (ii) providing new primitives for ambient
+communication while retaining the constructs in and out for mobility. The new
+model of communication is faithful to the principles of distribution and locationawareness
+of Mobile Ambients, and complements the constructs for Mobile Ambient
+mobility with finer-grained, and more effective, mechanisms for ambient
+interaction.</dcterms:abstract>
+        <dc:title>Boxed Ambients</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="urn:isbn:978-3-319-72043-2%20978-3-319-72044-9">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>10644</prism:volume>
+                <dc:identifier>ISBN 978-3-319-72043-2 978-3-319-72044-9</dc:identifier>
+                <dc:title>Recent Trends in Algebraic Development Techniques</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cham</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>James</foaf:surname>
+                        <foaf:givenname>Phillip</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roggenbach</foaf:surname>
+                        <foaf:givenname>Markus</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Johnsen</foaf:surname>
+                        <foaf:givenname>Einar Broch</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steffen</foaf:surname>
+                        <foaf:givenname>Martin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stumpf</foaf:surname>
+                        <foaf:givenname>Johanna Beate</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-3-319-72044-9_7</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>88-103</bib:pages>
+        <dc:date>2017</dc:date>
+        <dc:description>DOI: 10.1007/978-3-319-72044-9_7</dc:description>
+        <dcterms:dateSubmitted>2019-05-31 05:38:13</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:title>A Calculus of Virtually Timed Ambients</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="urn:isbn:978-1-4757-5275-5%20978-0-387-35608-2">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 978-1-4757-5275-5 978-0-387-35608-2</dc:identifier>
+                <dc:title>Foundations of Information Technology in the Era of Network and Mobile Computing</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Boston, MA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer US</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baeza-Yates</foaf:surname>
+                        <foaf:givenname>Ricardo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Montanari</foaf:surname>
+                        <foaf:givenname>Ugo</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Santoro</foaf:surname>
+                        <foaf:givenname>Nicola</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Phillips</foaf:surname>
+                        <foaf:givenname>Iain</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vigliotti</foaf:surname>
+                        <foaf:givenname>Maria Grazia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_764"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-0-387-35608-2_45</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>550-562</bib:pages>
+        <dc:date>2002</dc:date>
+        <dc:description>DOI: 10.1007/978-0-387-35608-2_45</dc:description>
+        <dcterms:dateSubmitted>2019-05-31 05:39:12</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:title>On Reduction Semantics for the Push and Pull Ambient Calculus</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_764">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2F978-0-387-35608-2_45.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-05-31 05:39:14</dcterms:dateSubmitted>
+        <dc:title>Full Text</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Report rdf:about="https://eprint.iacr.org/2018/643">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zamyatin</foaf:surname>
+                        <foaf:givenname>Alexei</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Harz</foaf:surname>
+                        <foaf:givenname>Dominik</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lind</foaf:surname>
+                        <foaf:givenname>Joshua</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Panayiotou</foaf:surname>
+                        <foaf:givenname>Panayiotis</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gervais</foaf:surname>
+                        <foaf:givenname>Arthur</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Knottenbelt</foaf:surname>
+                        <foaf:givenname>William J.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_767"/>
+        <link:link rdf:resource="#item_766"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Bitcoin</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Ethereum</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>smart contracts</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>cryptocurrency-backed assets</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>cryptographic protocols</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>interoperability</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://eprint.iacr.org/2018/643</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018</dc:date>
+        <dcterms:dateSubmitted>2019-06-03 06:58:49</dcterms:dateSubmitted>
+        <z:libraryCatalog>ePrint IACR</z:libraryCatalog>
+        <dcterms:abstract>Building trustless cross-blockchain trading protocols is challenging. Centralized exchanges thus remain the preferred route to execute transfers across blockchains. However, these services require trust and therefore undermine the very nature of the blockchains on which they operate. To overcome this, several decentralized exchanges have recently emerged which offer support for atomic cross-chain swaps (ACCS). ACCS enable the trustless exchange of cryptocurrencies across blockchains, and are the only known mechanism to do so. However, ACCS suffer significant limitations; they are slow, inefficient and costly, meaning that they are rarely used in practice.
+
+
+
+We present XCLAIM: the first generic framework for achieving trustless and efficient cross-chain exchanges using cryptocurrency-backed assets (CbAs). XCLAIM offers protocols for issuing, transferring, swapping and redeeming CbAs securely in a non-interactive manner on existing blockchains. We instantiate XCLAIM between Bitcoin and Ethereum and evaluate our implementation; it costs less than USD 0.50 to issue an arbitrary amount of Bitcoin-backed tokens on Ethereum. We show XCLAIM is not only faster, but also significantly cheaper than atomic cross-chain swaps. Finally, XCLAIM is compatible with the majority of existing blockchains without modification, and enables several novel cryptocurrency applications, such as cross-chain payment channels and efficient multi-party swaps.</dcterms:abstract>
+        <prism:number>643</prism:number>
+        <dc:title>XCLAIM: Trustless, Interoperable Cryptocurrency-Backed Assets</dc:title>
+        <z:shortTitle>XCLAIM</z:shortTitle>
+    </bib:Report>
+    <z:Attachment rdf:about="#item_767">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://eprint.iacr.org/2018/643.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-03 06:59:06</dcterms:dateSubmitted>
+        <dc:title>ePrint IACR Full Text PDF</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_766">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://eprint.iacr.org/2018/643</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-03 06:58:53</dcterms:dateSubmitted>
+        <dc:title>ePrint IACR Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://blog.sigfpe.com/2011/07/profunctors-in-haskell.html">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_770"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://blog.sigfpe.com/2011/07/profunctors-in-haskell.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:04:26</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dc:title>A Neighborhood of Infinity: Profunctors in Haskell</dc:title>
+        <z:shortTitle>A Neighborhood of Infinity</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_770">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://blog.sigfpe.com/2011/07/profunctors-in-haskell.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:04:29</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4503-1832-7">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4503-1832-7</dc:identifier>
+                <dc:identifier>DOI 10.1145/2429069.2429075</dc:identifier>
+                <dc:title>Proceedings of the 40th annual ACM SIGPLAN-SIGACT symposium on Principles of programming languages - POPL '13</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Rome, Italy</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>ACM Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abel</foaf:surname>
+                        <foaf:givenname>Andreas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pientka</foaf:surname>
+                        <foaf:givenname>Brigitte</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thibodeau</foaf:surname>
+                        <foaf:givenname>David</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Setzer</foaf:surname>
+                        <foaf:givenname>Anton</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_772"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dl.acm.org/citation.cfm?doid=2429069.2429075</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>27</bib:pages>
+        <dc:date>2013</dc:date>
+        <dcterms:dateSubmitted>2019-06-19 15:14:39</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>the 40th annual ACM SIGPLAN-SIGACT symposium</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dc:title>Copatterns: programming infinite structures by observations</dc:title>
+        <z:shortTitle>Copatterns</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_772">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.cse.chalmers.se/~abela/popl13.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:15:15</dcterms:dateSubmitted>
+        <dc:title>popl13.pdf</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://github.com/ambientsprotocol">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>GitHub</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_774"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://github.com/ambientsprotocol</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:16:14</dcterms:dateSubmitted>
+        <z:language>en</z:language>
+        <dcterms:abstract>Ambients has 2 repositories available. Follow their code on GitHub.</dcterms:abstract>
+        <dc:title>Ambients</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_774">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://github.com/ambientsprotocol</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:16:18</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://wiki.haskell.org/Applicative_functor">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_776"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://wiki.haskell.org/Applicative_functor</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:25:36</dcterms:dateSubmitted>
+        <dc:title>Applicative functor - HaskellWiki</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_776">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://wiki.haskell.org/Applicative_functor</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:25:36</dcterms:dateSubmitted>
+        <dc:title>Applicative functor - HaskellWiki</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://wiki.haskell.org/Monad">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_778"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://wiki.haskell.org/Monad</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:25:55</dcterms:dateSubmitted>
+        <dc:title>Monad - HaskellWiki</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_778">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://wiki.haskell.org/Monad</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-19 15:25:55</dcterms:dateSubmitted>
+        <dc:title>Monad - HaskellWiki</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>
