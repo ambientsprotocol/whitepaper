@@ -26,3 +26,6 @@ Even if this white paper is not a strictly scientific work, we've been careful t
 ## Tools
 The _tools/_ directory contains the needed scripts to generate the PDF version of the paper. See the [README](/tools/README.md) for instructions on how to build the PDF.
 
+## License
+
+ [CC-BY 4.0](LICENSE), © 2019 Haja Networks Oy
