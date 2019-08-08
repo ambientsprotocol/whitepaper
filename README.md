@@ -2,7 +2,7 @@
 
 This directory contains all the files and assets for the Ambients Protocol white paper, along with the tools to generate a PDF version.
 
-### 📄 [Download the paper](https://github.com/ambientsprotocol/whitepaper/raw/master/ambients.pdf)
+### 📄 [Download the paper](https://ipfs.io/ipfs/QmPhPJE55GvqSz7Pwvkc8n9dbKmqGw6tUGTE1MgfNQvzsf)
 
 ## Paper contents
 The paper is written in Markdown format. Each section in the paper is in its own md-file, ordered by a numeric prefix.
