@@ -38,8 +38,8 @@ Decentralization of distributed programs is not an end goal itself, but a crucia
 
 The Ambients protocol preserves these properties by specifying models for verifying the properties throughout the lifecycle of a distributed program. Detailed in the following chapters, we specify:
 
-1. The [Programming Model](#protocol-primitives) for translating programs to a process-algebraic representation of distributed computation
-2. The [Compilation Model](#compilation-model) for compiling programs to distributed executables
-3. The [Execution Model](#execution-model) for deploying, executing, and sharing distributed executables in content-addressed, peer-to-peer networks
+1. The [Programming Model](https://github.com/ambientsprotocol/whitepaper/blob/87546d2dff97de398cd26be2c0b3dd73d935df3e/05-distributed-programs-as-ambients.md#protocol-primitives) for translating programs to a process-algebraic representation of distributed computation
+2. The [Compilation Model](https://github.com/ambientsprotocol/whitepaper/blob/master/06-compilation-model.md) for compiling programs to distributed executables
+3. The [Execution Model](https://github.com/ambientsprotocol/whitepaper/blob/master/07-execution-model.md) for deploying, executing, and sharing distributed executables in content-addressed, peer-to-peer networks
 
 
